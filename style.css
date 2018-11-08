@@ -1,0 +1,75 @@
+/*global cs*/
+body {
+	/*background-image: url(images/citrina.jpg);*/
+	
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	visibility: inherit;*/
+
+}
+
+.card-img-top {
+	max-width: 235px;
+	max-height: 180px;
+}
+
+
+/*nav*/
+
+#nav{
+/*	padding-right: 20px;*/
+}
+
+/* fist col css */
+.form-group {
+	width: 160px;
+	margin-bottom: 5px;
+}
+.btn {
+	width: 160px;
+}
+#calc {
+	
+	padding: 0px 0px 0 45px;
+}
+#first_form_btn {
+	margin-top: 10px;
+}
+
+/* third col css / main content css*/
+#main_content {
+	text-align: center;
+}
+
+/*third col css*/
+
+}
+
+/*Footer css*/
+#footer {
+	background-color: yellow;
+}
+
+/*social box*/
+
+
+
+#social_box {
+	background-color: yellow;
+	border: 1px solid red;
+	display: inline-block;
+
+
+	
+}
+#social_box {
+	position: fixed;
+    left: 1600px;
+    top: 400px;
+   /*z-index: -1;*/
+}
+

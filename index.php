@@ -193,38 +193,9 @@
 
 
 					<!--PHP test for log in-->
-					<?php 
-					if (isset($_POST['submit'])){
-						$username = $_POST['username'];
-						$password = $_POST['password'];
-
-						$connection = mysqli_connect('localhost', 'root', '', 'loginapp');
-						if($connection) {
-							echo "we are connected" . "<br />"; //ar galima sia zinute imesti kaip kad su JS narsykleje
-
-						} else {
-							die("Databe connection faled");
-						}
-					}
-
-					$query = "INSERT INTO users(username, password) ";
-					$query .= "VALUES ('$username', '$password')";
-
 					
-
-
-					$result = mysqli_query($connection, $query);
-
-					if (!$result) {
-						die("Query faild"); // tikrinam ar veikia duomenu perdavimas i duombaze
-					}
-						// echo "your name is " . $username . " and your passoword is " . $password;
-
-
-
-					?>
 					Log in
-					<form action="index.php" method="post">
+					<form action="login_create.php" method="post">
 						<div class="form-group">
 							<label for="username">Username</label>
 							<input name="username" type="text" class="form-control" id="username" placeholder="Username">
@@ -243,13 +214,7 @@
 
 
 
-					<!-- <form action="index.php" method="post">
-						<label>Username</label>
-						<input type="text" name="username" placeholder="Enter you Username">
-						<label>Password</label>
-						<input type="password" name="password" placeholder="Enter your password">
-						<input type="submit" name="submit" value="Submit">
-					</form> -->
+					
 				</div>
 			</div>
 

@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	BANERIS KAZKOKS - ar jo reikia
+	<p style="text-align: right"> / Mus jau uzsisake 240 klientai / ivertinimas 5 * / +370 4438804 / FB / Insta / Twiter / pastas</p>
 	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; " id="nav"> <!--navbar-dark bg-dark / atkreipti demesi i kabutes nes jos atsiranda-->
 		<a class="navbar-brand" href="#">
 			<img src="images/image.jpg" width="30" height="30" class="d-inline-block align-top" alt="image of logo">This is LOGO
@@ -67,25 +67,47 @@
 
 		<!--kodel neveikia social_box-->
 		<div id="social_box">
-			dasdasdasd
+			FB <br />
+			TWIT <br />
+			INSTA <br />
+			MAIL 
 		</div>
-		<!--kodel neveikia social_box-->
+		<div>
+			Atsiranda kai kazkas perziuri arba uzsisako <br />
+			Uzsisake - vardas <br />
+			amzius - 23 <br />
+			palnas - toks ir toks <br />
+			
+		</div>
 
 		
 
-		<h4 style="text-align: center">KODEL 8PACK.LT</h4> 
+		<h4 style="text-align: center">KODEL 8PACK.LT ir kaip tai veikia</h4> 
 		<div class="row">
+			<div class="col-4" class="why_box">
+				IMAGE <br />
+				Taupote laika <br />
+				Trumpas aprasymas 
+				Uzsisakote
+
+			</div>
+			<div class="col-2" class="why_box">
+				IMAGE <br />
+				Taupote pinigus <br />
+				Trumpas aprasymas 
+				apmokate
+			</div>
+			<div class="col-2" class="why_box">
+				IMAGE <br />
+				Ivairus maistas <br />
+				Trumpas aprasymas 
+				laukiate uzsakymo
+			</div>
 			<div class="col-4">
-				Laikas - kaip lemon gyme
-			</div>
-			<div class="col-2">
-				Pinigai
-			</div>
-			<div class="col-2">
-				ivairus maistas
-			</div>
-			<div class="col-4">
-				nereikia sukti galvos
+				IMAGE <br />
+				Sveikas gyvenimo budas <br />
+				Trumpas aprasymas 
+				megaujates valgiu
 			</div>
 		</div>
 		<div class="row">
@@ -96,24 +118,24 @@
 					<div class="form-group">
 						<label for="exampleFormControlSelect1">Tikslas</label>
 						<select class="form-control" id="exampleFormControlSelect1">
-							<option>Vyras</option>
-							<option>Moteris</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="exampleFormControlSelect1">Lytis</label>
-						<select class="form-control" id="exampleFormControlSelect1">
 							<option>Išlaikyti svorį</option>
 							<option>Numesti svoro</option>
 							<option>Priaugti svorio</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Ūgis</label>
+						<label for="exampleFormControlSelect1">Lytis</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>Vyras</option>
+							<option>Moteris</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlInput1">Ūgis (cm)</label>
 						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="pvz: 177">
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Svoris</label>
+						<label for="exampleFormControlInput1">Svoris (kg)</label>
 						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="pvz: 80">
 					</div>
 
@@ -139,7 +161,7 @@
 			<div class="col-8" id="main_content">
 				<div>
 					<h4>KODEL 8PACK.LT</h4> 
-					Taupote savo Laika ir Pinigus,  investuojate i savo sveikata ir nesijaudinate ka valgyti siandien
+					Mūsų maisto pristatymo paslauga puikiai tinka savo svorį prižiūrintiems, mažai laiko turintiems asmenims, sportininkams arba tiesiog besirūpinantiems savo sveika ir subalansuota mityba. Sveikas maistas ruošiamas iš šviežių produktų, visuomet įtraukiant sezoninius vaisius ir daržoves. CityRush komanda dirba tam, kad taupytų Jūsų laiką ir pasirūpintų skania ir subalansuota pilnaverte mityba visai dienai!
 				</div>
 
 				<br / >
@@ -150,7 +172,7 @@
 						<div class="card-body">
 							<h5 class="card-title">Liekniejimo planas</h5>
 							<p class="card-text">1200 ~kcal 
-								<br /> / iprastas / 	<br /> 3 patiekalai + 2 užskandziai / 	<br /> 14.44 eur /d 	<br /> (uzsakant menesiui</p>
+								<br /> / iprastas / 	<br /> 3 patiekalai + 2 užskandziai / 	<br /> 14.44 eur /d 	<br /> (uzsakant menesiui <br /> check box ar reikia treniruociu plano - ir papildomi klausimai</p> 
 								<br />
 								<br />
 								<br />

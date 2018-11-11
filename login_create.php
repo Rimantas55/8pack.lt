@@ -25,7 +25,7 @@
 		die();
 	}
 
-	if (isset($_POST['submit'])){
+	if (isset($_POST['submit'])){ 
 
 		#security password / incrypting password
 		$hashFormat = "$2y$10$";

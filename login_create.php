@@ -13,6 +13,8 @@
 	$username = "root";
 	$password = "";
 	$database = "loginapp";
+
+	//sita dali nukopinam
 	try {
 		$conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -25,20 +27,28 @@
 
 	if (isset($_POST['submit'])){
 
-		$statement = $conn->prepare("INSERT INTO users (username, password) VALUES (:a, :b)"); //sablonas del SQL injection
+		#security password / incrypting password
+		$hashFormat = "$2y$10$";
+		$salt = "iusesomecrazystrings22"; //22zenklai
+		$hashF_and_salt = $hashFormat . $salt;
+		$_POST['password'] = crypt($_POST['password'], $hashF_and_salt);
+
+
+		//ikelimas i MySQL duombaze ir darom apsauga pries MySQL injection, todel sukuriam sablona / 
+		$statement = $conn->prepare("INSERT INTO users (username, password) VALUES (:a, :b)"); 
 		$statement->execute([
 			'a' => $_POST['username'],
 			'b' => $_POST['password']
 		]);
 
-		echo "New record created successfully";
+		echo "New record created successfully ";
 
 	}
-
+	//Pasirinkimias is duomenu bazes
 	$stmt = $conn->query("SELECT username, password FROM users"); 
 	$users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-	
+	//outputas is duomenu bazes
 	foreach ($users as $user) {
 		echo $user['username'] . " " . $user['password'];
 	}

@@ -14,7 +14,8 @@ body {
 
 /*why_box - KODEL VERTA RINKTIS */
 /**kodel neranda reikiamo elemnto kai bandau pasiekti per .class pvz: div. .why_box ??*/
-div .col-lg-3 { 
+/*div .col-lg-3 { */
+	.why_box {
 	border-right: 2px solid red;
 	height: 100px;
 	text-align: center;
@@ -86,7 +87,7 @@ div .col-lg-3 {
 }
 #social_box {
 	position: fixed;
-    left: 1600px;
+    left: 0;
     top: 400px;
    /*z-index: -1;*/
 }

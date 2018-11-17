@@ -87,7 +87,7 @@
 
 		<h4 style="text-align: center">KODEL 8PACK.LT ir kaip tai veikia</h4> 
 		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-12"  class="why_box"> 
+			<div class="col-lg-3 col-md-6 col-sm-12 why_box"> 
 				<div>
 					IMAGE
 				</div>
@@ -318,6 +318,7 @@
 
 
 		<div>
+			what is multi treding su comandine eilute
 			Maisto produktu kaloriju skaiciuokle <br />
 			https://www.freshly.com <br />
 			https://www.preppeddelivery.com <br />

@@ -9,10 +9,11 @@
 	<?php
 
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$database = "loginapp";
+	// $servername = "localhost";
+	// $username = "root";
+	// $password = "";
+	// $database = "loginapp";
+	require "config.php";
 
 	//sita dali nukopinam
 	try {

@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<?php require "config.php"; ?>
+<html lang="en">
 <head>
-	<title>8pack.lt Sveiko maisto rinkiniai</title>
-	<meta charset="utf-8">  
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+	
+	<!-- Bootstrap CSS JS jquery-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!--local style CSS-->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>8pack.lt Sveiko maisto rinkiniai</title>
 </head>
 <body>
-
-	<p style="text-align: right"> / Mus jau uzsisake 240 klientai / ivertinimas 5 * / +370 4438804 / FB / Insta / Twiter / pastas</p>
-	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; " id="nav"> <!--navbar-dark bg-dark / atkreipti demesi i kabutes nes jos atsiranda-->
+	
+	<p style="text-align: right"> Mus jau uzsisake 240 klientai / ivertinimas 5 * / +370 4438804 / FB / Insta / Twiter / pastas</p>
+	<!--NAVIGATION-->
+	<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd; " id="nav"> <!--navbar-dark bg-dark / atkreipti demesi i kabutes nes jos atsiranda code kai norime taip keisti spalvas-->
 		<a class="navbar-brand" href="#">
 			<img src="images/image.jpg" width="30" height="30" class="d-inline-block align-top" alt="image of logo">This is LOGO
 		</a>
@@ -58,11 +67,14 @@
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<!-- <input class="form-control mr-sm-2" type="text" placeholder="" aria-label="Search"> -->
+				<button class="btn btn-outline-success my-2 my-sm-0 " type="submit" >Admin paskyra</button>
 				<button class="btn btn-outline-success my-2 my-sm-0 " type="submit" >Mano paskyra</button>
 
 			</form>
 		</div>
 	</nav>
+	
+	<!--CONTAINER-->
 	<div class="container-fluid">
 
 		<!--kodel neveikia social_box-->
@@ -72,42 +84,78 @@
 			INSTA <br />
 			MAIL 
 		</div>
-		<div>
-			Atsiranda kai kazkas perziuri arba uzsisako <br />
-			Uzsisake - vardas <br />
-			amzius - 23 <br />
-			palnas - toks ir toks <br />
-			
-		</div>
-
-		
 
 		<h4 style="text-align: center">KODEL 8PACK.LT ir kaip tai veikia</h4> 
 		<div class="row">
-			<div class="col-4" class="why_box">
-				IMAGE <br />
-				Taupote laika <br />
-				Trumpas aprasymas 
-				Uzsisakote
+			<div class="col-lg-3 col-md-6 col-sm-12"  class="why_box"> 
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Taupote laika
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+				<div>
+					Uzsisakote
+				</div>
+			</div>
+			<div  class="col-lg-3 col-md-6 col-sm-12" class="why_box">
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Taupote pinigus
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+				<div>
+					Apmokate
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12" class="why_box">
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Ivairus maistas
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
 
+				<div>
+					Laukiate uzsakymo
+				</div>
 			</div>
-			<div class="col-2" class="why_box">
-				IMAGE <br />
-				Taupote pinigus <br />
-				Trumpas aprasymas 
-				apmokate
-			</div>
-			<div class="col-2" class="why_box">
-				IMAGE <br />
-				Ivairus maistas <br />
-				Trumpas aprasymas 
-				laukiate uzsakymo
-			</div>
-			<div class="col-4">
-				IMAGE <br />
-				Sveikas gyvenimo budas <br />
-				Trumpas aprasymas 
-				megaujates valgiu
+			<div class="col-lg-3 col-md-6 col-sm-12" class="why_box">
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Sveikas gyvenimo budas 
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+
+				<div>
+					megaujates valgiu
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -116,36 +164,36 @@
 				Kalorijų skaičiuoklė
 				<form >
 					<div class="form-group">
-						<label for="exampleFormControlSelect1">Tikslas</label>
-						<select class="form-control" id="exampleFormControlSelect1">
+						<label>Tikslas</label>
+						<select class="form-control">
 							<option>Išlaikyti svorį</option>
 							<option>Numesti svoro</option>
 							<option>Priaugti svorio</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlSelect1">Lytis</label>
-						<select class="form-control" id="exampleFormControlSelect1">
+						<label>Lytis</label>
+						<select class="form-control">
 							<option>Vyras</option>
 							<option>Moteris</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Ūgis (cm)</label>
-						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="pvz: 177">
+						<label>Ūgis (cm)</label>
+						<input type="text" class="form-control" placeholder="pvz: 177">
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Svoris (kg)</label>
-						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="pvz: 80">
+						<label>Svoris (kg)</label>
+						<input type="text" class="form-control" placeholder="pvz: 80">
 					</div>
 
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Amžius</label>
-						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="pvz: 22">
+						<label>Amžius</label>
+						<input type="text" class="form-control" placeholder="pvz: 22">
 					</div>
 					<div class="form-group">
-						<label for="exampleFormControlSelect1">Aktyvumas</label>
-						<select class="form-control" id="exampleFormControlSelect1">
+						<label>Aktyvumas</label>
+						<select class="form-control">
 							<option>1 k. per sav</option>
 							<option>2 k. per sav</option>
 							<option>3 k per sav </option>
@@ -219,10 +267,10 @@
 					Log in
 					<form action="login_create.php" method="post">
 						<div class="form-group">
-							<label for="username">Username</label>
+							<label>Username</label>
 							<input name="username" type="text" class="form-control" id="username" placeholder="Username">
-							<label for="password">Password</label>
-							<input type="password" name="password" class="form-control" id="passowrd" placeholder="Passoword">
+							<label>Password</label>
+							<input type="password" name="password" class="form-control" id="password" placeholder="Passoword">
 						</div>
 						<button type="submit" name="submit" class="btn btn-primary" id="first_form_btn">Submit </button>
 					</form>
@@ -259,7 +307,13 @@
 			Members
 		</div>
 
-
+		<div>
+			Atsiranda kai kazkas perziuri arba uzsisako <br />
+			Uzsisake - vardas <br />
+			amzius - 23 <br />
+			palnas - toks ir toks <br />
+			
+		</div>
 
 
 

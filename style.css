@@ -13,9 +13,7 @@ body {
 }
 
 /*why_box - KODEL VERTA RINKTIS */
-/**kodel neranda reikiamo elemnto kai bandau pasiekti per .class pvz: div. .why_box ??*/
-/*div .col-lg-3 { */
-	.why_box {
+.why_box {
 	border-right: 2px solid red;
 	height: 100px;
 	text-align: center;
@@ -23,10 +21,10 @@ body {
 }
 .seperator {
 	width: 101px;
-    height: 2px;
-    background: #ffed00; 
-    margin: auto;
-    /*margin: 20px auto 25px;*/
+	height: 2px;
+	background: #ffed00; 
+	margin: auto;
+	/*margin: 20px auto 25px;*/
 }
 
 
@@ -40,55 +38,49 @@ body {
 /*nav*/
 
 #nav{
-/*	padding-right: 20px;*/
+	/*	padding-right: 20px;*/
 }
 
 /* fist col css */
-/*.form-group {
+.form-group {
 	width: 160px;
 	margin-bottom: 5px;
 }
 .btn {
 	width: 160px;
 }
-#calc {
-	
+.calc {
+	background-color: lightgrey;
 	padding: 0px 0px 0 45px;
 }
 #first_form_btn {
 	margin-top: 10px;
-}*/
+	}
 
-/* third col css / main content css*/
-#main_content {
-	text-align: center;
-}
+	/* third col css / main content css*/
+	#main_content {
+		text-align: center;
+	}
 
-/*third col css*/
+	/*third col css*/
 
 }
 
 /*Footer css*/
-#footer {
+.footer {
 	background-color: yellow;
 }
 
 /*social box*/
-
-
-
 #social_box {
 	background-color: yellow;
 	border: 1px solid red;
 	display: inline-block;
-
-
-	
 }
 #social_box {
 	position: fixed;
-    left: 0;
-    top: 400px;
-   /*z-index: -1;*/
+	left: 1470px;
+	top: 624px;
+	/*z-index: -1;*/
 }
 

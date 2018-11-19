@@ -76,91 +76,15 @@
 	
 	<!--CONTAINER-->
 	<div class="container-fluid">
-
-		<!--kodel neveikia social_box-->
 		<div id="social_box">
 			FB <br />
 			TWIT <br />
 			INSTA <br />
 			MAIL 
 		</div>
-
-		<h4 style="text-align: center">KODEL 8PACK.LT ir kaip tai veikia</h4> 
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-12 why_box"> 
-				<div>
-					IMAGE
-				</div>
-				<div>
-					Taupote laika
-				</div>
-				<div class="seperator">
-					
-				</div>
-				<div>
-					Trumpas aprasymas
-				</div>
-				<div>
-					Uzsisakote
-				</div>
-			</div>
-			<div  class="col-lg-3 col-md-6 col-sm-12" class="why_box">
-				<div>
-					IMAGE
-				</div>
-				<div>
-					Taupote pinigus
-				</div>
-				<div class="seperator">
-					
-				</div>
-				<div>
-					Trumpas aprasymas
-				</div>
-				<div>
-					Apmokate
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12" class="why_box">
-				<div>
-					IMAGE
-				</div>
-				<div>
-					Ivairus maistas
-				</div>
-				<div class="seperator">
-					
-				</div>
-				<div>
-					Trumpas aprasymas
-				</div>
-
-				<div>
-					Laukiate uzsakymo
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12" class="why_box">
-				<div>
-					IMAGE
-				</div>
-				<div>
-					Sveikas gyvenimo budas 
-				</div>
-				<div class="seperator">
-					
-				</div>
-				<div>
-					Trumpas aprasymas
-				</div>
-
-				<div>
-					megaujates valgiu
-				</div>
-			</div>
-		</div>
 		<div class="row">
 			<!--first col-->
-			<div class="col-2" id="calc">
+			<div class="col-2 calc">
 				Kalorijų skaičiuoklė
 				<form >
 					<div class="form-group">
@@ -202,6 +126,7 @@
 						</select>
 					</div>
 					<button type="submit" class="btn btn-primary" id="first_form_btn">Skaičiuoti</button>
+					hyper linkas i kmi langa arba issokantis
 				</form>
 
 			</div>
@@ -287,10 +212,86 @@
 					
 				</div>
 			</div>
+			<!--kodel mes-->
+			<h4 style="text-align: center">KODEL 8PACK.LT ir kaip tai veikia</h4> 
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-12 why_box"> 
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Taupote laika
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+				<div>
+					Uzsisakote
+				</div>
+			</div>
+			<div  class="col-lg-3 col-md-6 col-sm-12 why_box" >
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Taupote pinigus
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+				<div>
+					Apmokate
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 why_box">
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Ivairus maistas
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+
+				<div>
+					Laukiate uzsakymo
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 why_box">
+				<div>
+					IMAGE
+				</div>
+				<div>
+					Sveikas gyvenimo budas 
+				</div>
+				<div class="seperator">
+					
+				</div>
+				<div>
+					Trumpas aprasymas
+				</div>
+
+				<div>
+					megaujates valgiu
+				</div>
+			</div>
+		</div>
 
 			<!--footer-->
-			<div class="row" id="footer">
-				FOOTER fdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+			<div class="row">
+				<div class="col-12 footer">
+					FOOTER fdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+				</div>
 			</div>
 
 

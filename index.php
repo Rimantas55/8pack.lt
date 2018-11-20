@@ -125,7 +125,7 @@
 							<option>5 k. per sav</option>
 						</select>
 					</div>
-					<button type="submit" class="btn btn-primary" id="first_form_btn">Skaičiuoti</button>
+					<a href="kmi.php" type="submit" class="btn btn-primary" id="first_form_btn">Skaičiuoti</a> <br />
 					hyper linkas i kmi langa arba issokantis
 				</form>
 
@@ -289,7 +289,7 @@
 
 			<!--footer-->
 			<div class="row">
-				<div class="col-12 footer">
+				<div class="col-md-12 footer">
 					FOOTER fdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 				</div>
 			</div>

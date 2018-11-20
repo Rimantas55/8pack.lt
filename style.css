@@ -46,15 +46,16 @@ body {
 	width: 160px;
 	margin-bottom: 5px;
 }
-.btn {
+/*.btn {
 	width: 160px;
-}
+}*/
 .calc {
-	background-color: lightgrey;
+	background-color: lightgreen;
 	padding: 0px 0px 0 45px;
 }
 #first_form_btn {
 	margin-top: 10px;
+	width: 160px;
 	}
 
 	/* third col css / main content css*/
@@ -84,3 +85,4 @@ body {
 	/*z-index: -1;*/
 }
 
+/* Your KMI */

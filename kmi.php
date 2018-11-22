@@ -33,7 +33,7 @@
 		</div>
 		<div class="row">
 ugis svoris amzius tikslas ir t.t
-			<table class="table">
+			<table class="table table-info">
   <thead>
     <tr>
       <th>#</th>
@@ -71,17 +71,20 @@ ugis svoris amzius tikslas ir t.t
   </tbody>
 </table>
 			
-			<p> TDEE Kiek reikia kcal per diena NESPORTUOJANT maintain /2000 kcal/                   2000kcal       lentele / A B R</p>
+			<p> TDEE Kiek reikia kcal per diena NESPORTUOJANT maintain /2000 kcal/ 2000kcal       lentele / A B R</p>
 <p>Jusu tikslas PRIAUGTI SVORIO</p>
-			<p>Kiek reikia kcal per diena SPORTUOJANT 1 k per sav /2500kcal/                          lentele / A B R</p>
-			<p>                     *pazymetas bus saltiniai</p>
+			<p>Kiek reikia kcal per diena SPORTUOJANT 1 k per sav /2500kcal/ lentele / A B R</p>
+			<p>*pazymetas bus saltiniai</p>
 		</div>
 		<div class="row">
 			
 			
-		<pre>                                       REKOMENDUOJAMAS PLANAS</p>
+		<p>REKOMENDUOJAMAS PLANAS</p>
 		</div>
 	</div>
+
+	<br />
+
 
 </body>
 </html>

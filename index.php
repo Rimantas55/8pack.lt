@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php require "config.php"; ?>
+<?php //echo phpinfo(); ?>
 <html lang="en">
 <head>
 
@@ -290,7 +291,18 @@
 			<!--footer-->
 			<div class="row">
 				<div class="col-md-12 footer">
-					FOOTER fdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+					<p>FOOTER fdsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
+					<p>Salygos</p>
+					<p>Karjera</p>
+					<p>Salygos</p>
+					<p>Privatumas</p>
+					<p>musu misija</p>
+					<p>Blogas</p>
+					<p>on the menu</p>
+
+
+
+
 				</div>
 			</div>
 
@@ -332,8 +344,10 @@
 			https://www.freshmealplan.com/traditional-plan <br />
 			https://www.freshnfitcuisine.com/gallery/healthy-mix <br />
 			https://orders.freshnlean.com/fnl/plans/ion-performance-protein
-
-
+			<p>dairy free</p>
+			<p>gluten free</p>
+			<p>paleo</p>
+			<p>reduced sodium</p>
 
 		</div>
 

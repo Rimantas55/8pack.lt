@@ -1,8 +1,8 @@
+<?php require "config.php"; ?>
+
 
 <h1>Login</h1>
 
-
-<pre>
 
 
 
@@ -13,7 +13,7 @@
 	// $username = "root";
 	// $password = "";
 	// $database = "loginapp";
-	require "config.php";
+	
 
 	//sita dali nukopinam
 	try {
@@ -53,7 +53,7 @@
 	foreach ($users as $user) {
 		echo $user['username'] . " " . $user['password'];
 	}
-
+	echo "<pre>";
 	print_r($users);
 
 
